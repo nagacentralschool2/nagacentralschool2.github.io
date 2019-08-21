@@ -1,6 +1,6 @@
 ---
 title: Ninoy Aquino Day
-image: 2019-08-21-Ninoy-Aquino-Day.jpg
+image: 2019-08-21-ninoy-aquino-day.jpg
 ---
 
 ## History of Ninoy Aquino Day

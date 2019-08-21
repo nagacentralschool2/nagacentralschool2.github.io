@@ -1,0 +1,12 @@
+---
+title: Peñafrancia Festival
+image: 2019-09-13-penafrancia-festival.png
+---
+
+In Naga, in the Bicol region in the center-west of the Philippines, September is a time of intense religious and civic celebration organized around devotion to Bicol’s patron, Our Lady of Peñafrancia, who is endearingly referred to by her local devotees as Ina, or Mother.
+
+As is true in a number of instances in the Philippines, the Peñafrancia festival actually links two seemingly unrelated feasts to make one extended celebration. In this case, the pairing includes the Divino Rostro, the Divine Face, celebrated on the second Friday of September, and Our Lady of Peñafrancia, celebrated the following weekend. Both celebrations are important to locals, but the Peñafrancia celebration draws the most vocal and fervent devotion.
+
+The Peñafrancia festival has come to be an important marker of the city’s identity, so much so that Naga often refers to itself as the “pilgrim city” in its public relations initiatives. The city is even home to a massive triumphal arch, the Porta Mariae, with a gold image of Our Lady of Peñafrancia on top. Religious pilgrimage is a core element of the Peñafrancia events, but the weeks surrounding the actual feast days are packed with a diverse and seemingly secular array of civic celebrations including women’s beauty contests, a “Pretty Boy Bicolandia” contest, tattoo festivals, a dog show, concerts, a triathlon, a skateboarding competition, a military parade, a chess tournament, dance events and a Peñafrancia “run” at the shrine. In Naga, however, these seemingly “secular” events are often spoken about as heartfelt forms or proofs of the people’s devotion to Ina. Participants in these events often wear headbands or carry banners printed Viva la Virgen or Viva el Divino Rostro.
+
+The number of attendees is hard to determine. The city’s normal population is under 200,000. Some locals claim that five million people attend each year, though that number equals the province’s entire population. Others claim it as the largest annual Marian pilgrimage in Asia, or in that part of the Philippines. A 2017 newspaper account claims that 1.8 to 2 million devotees were in attendance. Whatever the numbers, it takes over the city for the better part of a month.

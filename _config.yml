@@ -1,6 +1,8 @@
 future: true
 
 collections:
+  announcements:
+    output: true
   events:
     output: true
   staffs:
@@ -10,9 +12,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "staffs"
+      type: "announcements"
     values:
-      layout: "staff"
+      layout: "announcement"
   - scope:
       path: ""
       type: "events"
@@ -23,6 +25,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "staffs"
+    values:
+      layout: "staff"
   - scope:
       path: ""
     values:
