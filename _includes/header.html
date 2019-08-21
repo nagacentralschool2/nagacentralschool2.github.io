@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/img/ncs2_logo.png" width="40" height="40" class="d-inline-block align-top" alt="NCS2 Logo">
+    <span class="align-middle h4">Naga Central School II</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+
+      {% for item in site.data.navigation %}
+      <li class="nav-item {% if item.children %} dropdown {% elsif page.url == item.link %} active {% endif %}">
+        {% if item.children %}
+        <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          {{ item.name }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="{{ item.id }}">
+          {% for subitem in item.children %}
+          <a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a>
+          {% endfor %}
+        </div>
+        {% else %}
+        <a class="nav-link" href="{{ item.link }}">{{ item.name }}
+          {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+        {% endif %}
+      </li>
+      {% endfor %}
+
+    </ul>
+  </div>
+</nav>

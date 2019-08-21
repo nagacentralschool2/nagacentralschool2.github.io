@@ -1,0 +1,35 @@
+- name: Home
+  link: /
+- name: About Us
+  id: aboutus
+  children:
+    - name: Vision-Mission
+      link: /about-us/vision-mission.html
+    - name: History
+      link: /about-us/history.html
+    - name: Organizational Chart
+      link: /about-us/organizational-chart.html
+    - name: Previous School Heads
+      link: /about-us/previous-school-heads.html
+- name: Academic Programs
+  id: academicprograms
+  children:
+    - name: SSES
+      link: /academic-programs/sses.html
+    - name: Fast Learners
+      link: /academic-programs/fast-learners.html
+    - name: Headstart
+      link: /academic-programs/headstart.html
+- name: School Report
+  id: schoolreport
+  children:
+    - name: Enrolment
+      link: /school-report/enrolment.html
+    - name: Nutritional Status
+      link: /school-report/nutritional-status.html
+    - name: Phil-IRI
+      link: /school-report/phil-iri.html
+- name: Downloads
+  link: /downloads.html
+- name: Contact Us
+  link: /contact-us.html
