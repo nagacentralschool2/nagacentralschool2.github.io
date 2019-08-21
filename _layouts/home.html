@@ -14,10 +14,11 @@
 
 <body>
 
-  {% include header.html %}
+  <div class="container shadow bg-light p-0">
+    <img src="/assets/img/ncs2_facade_long.png" class="img-fluid">
+    {% include header.html %}
 
-  <div class="container">
-    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+    <div id="mainCarousel" class="p-4 carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#mainCarousel" data-slide-to="1"></li>
@@ -55,11 +56,8 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
 
-  <div class="container">
-
-    <div class="row">
+    <div class="p-4 row">
       {% for post in site.posts limit:3 %}
       <div class="col-sm">
         <div class="card h-100">
