@@ -1,2 +1,5 @@
 # nagacentralschool2.github.io
-Naga Central School 2
+
+Website for Naga Central School II.
+
+<nagacentralschool2.github.io>
