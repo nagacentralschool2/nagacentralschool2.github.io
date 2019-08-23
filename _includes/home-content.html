@@ -1,62 +1,11 @@
 <div class="row pt-4">
 
-  <div class="col-lg-4 col-md-6">
-    <div class="card h-100">
-      <div class="card-header text-center">
-        <h3>Upcoming Events</h3>
-      </div>
-      <div class="card-body">
-        {% assign sortedItems = site.announcements | reverse %}
-        {% for item in sortedItems limit:3 %}
-        <a href="{{ item.url }}" class="text-dark text-decoration-none">
-          <h5 class="card-title">{{ item.title }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{ item.date | date_to_string }}</h6>
-          {% comment %} class "line-clamp" does not work, we get a "p" tag inside excerpt. {% endcomment %}
-          <h6 class="card-text {% if forloop.last == false %} border-bottom pb-3 {% endif %}">
-            {{ item.content | strip_html | truncate: 120 }}</h6>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  {% assign sortedEvents = site.events | reverse %}
+  {% include home-card.html title='Events' items=sortedEvents linkAll='events.html' limit=3 %}
 
-  <div class="col-lg-4 col-md-6">
-    <div class="card h-100">
-      <div class="card-header text-center">
-        <h3>Announcements</h3>
-      </div>
-      <div class="card-body">
-        {% assign sortedItems = site.events | reverse %}
-        {% for item in sortedItems limit:3 %}
-        <a href="{{ item.url }}" class="text-dark text-decoration-none">
-          <h5 class="card-title">{{ item.title }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{ item.date | date_to_string }}</h6>
-          {% comment %} class "line-clamp" does not work, we get a "p" tag inside excerpt. {% endcomment %}
-          <h6 class="card-text {% if forloop.last == false %} border-bottom pb-3 {% endif %}">
-            {{ item.content | strip_html | truncate: 120 }}</h6>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  {% assign sortedAnnouncements = site.announcements | reverse %}
+  {% include home-card.html title='Announcements' items=sortedAnnouncements limit=3 %}
 
-  <div class="col-lg-4 col-md">
-    <div class="card h-100">
-      <div class="card-header text-center">
-        <h3>News</h3>
-      </div>
-      <div class="card-body">
-        {% for item in site.posts limit:3 %}
-        <a href="{{ item.url }}" class="text-dark text-decoration-none">
-          <h5 class="card-title">{{ item.title }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{ item.date | date_to_string }}</h6>
-          {% comment %} class "line-clamp" does not work, we get a "p" tag inside excerpt. {% endcomment %}
-          <h6 class="card-text {% if forloop.last == false %} border-bottom pb-3 {% endif %}">
-            {{ item.content | strip_html | truncate: 120 }}</h6>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  {% include home-card.html title='News' items=site.posts limit=3 %}
 
 </div>
