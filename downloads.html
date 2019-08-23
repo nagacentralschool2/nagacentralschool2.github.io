@@ -5,3 +5,8 @@ title: Downloads
 
 ### Downloads
 
+{% for item in site.data.download %}
+
+- [{{ item.title }}](/assets/dl/{{ item.file }}){:target="_blank"}
+
+{% endfor %}
