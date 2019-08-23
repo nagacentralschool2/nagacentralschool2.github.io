@@ -16,10 +16,10 @@
   children:
     - name: SSES
       link: /academic-programs/sses.html
-    - name: Fast Learners
-      link: /academic-programs/fast-learners.html
     - name: Headstart
       link: /academic-programs/headstart.html
+    - name: K to 12
+      link: /academic-programs/k-to-12.html
 - name: School Report
   id: schoolreport
   children:
