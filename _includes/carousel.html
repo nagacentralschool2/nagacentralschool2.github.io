@@ -2,7 +2,7 @@
 
   {% comment %} CAROUSEL INDICATORS (thingy to know what slide we're on and to go to another one directly)
   {% endcomment %}
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators m-0">
     {% for item in site.data.carousel %}
 
     <li data-target="#mainCarousel" data-slide-to="{{forloop.index0}}"
@@ -27,8 +27,8 @@
   </div>
 
   {% comment %} CAROUSEL PREVIOUS AND NEXT CONTROLS {% endcomment %}
-  <a class="carousel-control-prevn" href="#mainCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-ico" aria-hidden="true"></span>
+  <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
