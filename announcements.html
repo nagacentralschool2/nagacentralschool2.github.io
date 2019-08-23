@@ -1,0 +1,8 @@
+---
+layout: default
+title: Announcements
+---
+<h3>Announcements</h3>
+
+{% assign sortedItems = site.announcements | reverse %}
+{% include list.html items=sortedItems %}
