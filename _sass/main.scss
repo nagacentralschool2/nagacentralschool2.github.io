@@ -27,3 +27,33 @@ body {
 .navbar-subbrand {
   font-size: .7em;
 }
+
+// Change the default text sizes depending on the size of the screen.
+
+html {
+  font-size: .80rem;
+}
+
+// No need to make the takes bigger for Small
+// // @include media-breakpoint-up(sm) {
+// @media (min-width: 576px) {
+//   html {
+//     font-size: .80rem;
+//   }
+// }
+
+// @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
+    html {
+    font-size: .85rem;
+  }
+}
+
+//@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
+    html {
+    font-size: .90rem;
+  }
+}
+
+//@media (min-width: 1200px) {
