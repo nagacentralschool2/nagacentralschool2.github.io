@@ -31,7 +31,11 @@ body {
 // Change the default text sizes depending on the size of the screen.
 
 html {
-  font-size: .80rem;
+  font-size: .85rem;
+}
+
+h6 {
+  font-size: 1.15rem;
 }
 
 // No need to make the takes bigger for Small
@@ -45,14 +49,14 @@ html {
 // @include media-breakpoint-up(md) {
   @media (min-width: 768px) {
     html {
-    font-size: .85rem;
+    font-size: .90rem;
   }
 }
 
 //@include media-breakpoint-up(lg) {
 @media (min-width: 992px) {
     html {
-    font-size: .90rem;
+    font-size: .95rem;
   }
 }
 

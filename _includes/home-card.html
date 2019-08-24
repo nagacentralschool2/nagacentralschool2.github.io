@@ -1,17 +1,17 @@
 <div class="col-lg-4 col-md-6 pb-3">
   <div class="card h-100">
     <div class="card-header p-1 text-center">
-      <h4>{{ include.title }}</h4>
+      <h5>{{ include.title }}</h5>
     </div>
     <div class="card-body">
       {% assign count = include.items | size %}
       {% for item in include.items limit:include.limit %}
       <a href="{{ item.url }}" class="text-dark text-decoration-none">
-        <h5 class="card-title">{{ item.title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ item.date | date_to_string }}</h6>
+        <h6 class="card-title">{{ item.title }}</h6>
+        <p class="card-subtitle mb-2 text-muted">{{ item.date | date_to_string }}</p>
         {% comment %} class "line-clamp" does not work, we get a "p" tag inside excerpt. {% endcomment %}
-        <h6 class="card-text {% if forloop.last == false or count > include.limit %} border-bottom pb-3 {% endif %}">
-          {{ item.content | strip_html | truncate: 120 }}</h6>
+        <p class="card-text {% if forloop.last == false or count > include.limit %} border-bottom pb-3 {% endif %}">
+          {{ item.content | strip_html | truncate: 120 }}</p>
       </a>
       {% endfor %}
 
