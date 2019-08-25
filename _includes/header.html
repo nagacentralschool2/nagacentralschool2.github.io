@@ -13,7 +13,8 @@
     <ul class="navbar-nav">
 
       {% for item in site.data.navigation %}
-      <li class="nav-item {% if item.children %} dropdown {% elsif page.url == item.link %} active {% endif %}">
+      <li class="nav-item {% if item.children %} dropdown {% endif %} {% if page.url == item.link %} active {% endif %} {% if item.children and page.url contains item.link %} active {% endif %}"
+        >
         {% if item.children %}
         <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">

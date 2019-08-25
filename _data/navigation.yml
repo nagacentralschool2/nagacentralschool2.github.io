@@ -2,6 +2,7 @@
   link: /
 - name: About Us
   id: aboutus
+  link: /about-us/
   children:
     - name: Vision-Mission
       link: /about-us/vision-mission.html
@@ -13,6 +14,7 @@
       link: /about-us/previous-school-heads.html
 - name: Academic Programs
   id: academicprograms
+  link: /academic-programs/
   children:
     - name: SSES
       link: /academic-programs/sses.html
@@ -21,6 +23,7 @@
     - name: K to 12
       link: /academic-programs/k-to-12.html
 - name: School Report
+  link: /school-report/
   id: schoolreport
   children:
     - name: Enrolment
