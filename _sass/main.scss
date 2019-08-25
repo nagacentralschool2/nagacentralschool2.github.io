@@ -24,40 +24,35 @@ body {
   -webkit-box-orient: vertical;  
 }
 
+// Change the default text sizes depending on the size of the screen.
+
+html {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1.05rem;
+}
+
+h5 {
+  font-size: 1.20rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
 .navbar-subbrand {
   font-size: .7em;
 }
 
-// Change the default text sizes depending on the size of the screen.
-
-html {
-  font-size: .85rem;
-}
-
-h6 {
-  font-size: 1.15rem;
-}
-
-// No need to make the takes bigger for Small
-// // @include media-breakpoint-up(sm) {
+// @include media-breakpoint-up(sm) {
 // @media (min-width: 576px) {
-//   html {
-//     font-size: .80rem;
-//   }
-// }
 
 // @include media-breakpoint-up(md) {
-  @media (min-width: 768px) {
-    html {
-    font-size: .90rem;
-  }
-}
+// @media (min-width: 768px) {
 
-//@include media-breakpoint-up(lg) {
-@media (min-width: 992px) {
-    html {
-    font-size: .95rem;
-  }
-}
+// @include media-breakpoint-up(lg) {
+// @media (min-width: 992px) {
 
-//@media (min-width: 1200px) {
+// @media (min-width: 1200px) {
