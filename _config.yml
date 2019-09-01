@@ -27,11 +27,6 @@ defaults:
       layout: "post"
   - scope:
       path: ""
-      type: "staffs"
-    values:
-      layout: "staff"
-  - scope:
-      path: ""
     values:
       layout: "default"
 

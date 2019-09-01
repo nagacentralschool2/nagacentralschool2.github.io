@@ -1,0 +1,49 @@
+---
+layout: default
+title:
+---
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+
+  {% for group in site.data.staff %}
+
+  {% assign id = group.tab | replace: " ", "-" %}
+
+  <li class="nav-item">
+      <a class="nav-link {% if forloop.first %} active {% endif %}" id="{{id}}-tab" data-toggle="tab" href="#{{id}}" role="tab"
+        aria-controls="{{id}}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ group.tab }}</a>
+    </li>
+
+  {% endfor %}
+
+</ul>
+
+<div class="tab-content" id="myTabContent">
+
+  {% for group in site.data.staff %}
+
+  {% assign id = group.tab | replace: " ", "-" %}
+
+  <div class="tab-pane fade show {% if forloop.first %} active {% endif %}" id="{{id}}" role="tabpanel" aria-labelledby="{{id}}-tab">
+
+    <div class="row">
+
+      {% if group.main %}
+      {% assign main = group.main | first %}
+      {% include staff.html staff=main center=true %}
+      {% endif %}
+
+    </div>
+    
+    <div class="row">
+
+      {% for staff in group.children %}
+      {% include staff.html staff=staff %}
+      {% endfor %}
+
+    </div>
+  </div>
+  
+  {% endfor %}
+
+</div>
