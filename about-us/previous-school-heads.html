@@ -2,3 +2,13 @@
 layout: default
 title: Previous School Heads
 ---
+
+#### Previous School Heads
+
+<div class="row">
+
+  {% for head in site.data.prevheads %}
+  {% include staff.html staff=head %}
+  {% endfor %}
+
+</div>
