@@ -1,6 +1,6 @@
 ---
 title: Peñafrancia Festival
-image: 2019-09-13-penafrancia-festival.png
+image: 2019-09-13-penafrancia-festival.jpg
 ---
 
 In Naga, in the Bicol region in the center-west of the Philippines, September is a time of intense religious and civic celebration organized around devotion to Bicol’s patron, Our Lady of Peñafrancia, who is endearingly referred to by her local devotees as Ina, or Mother.
