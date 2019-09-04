@@ -1,7 +1,7 @@
 <div class="col-sm pt-4">
   <div class="card border-dark text-center mx-auto" style="width: 15rem;">
 
-    <img src="{{include.staff.img}}" class="card-img-top rounded" alt="{{include.staff.name}}">
+    <img src="/assets/img/staff/{% if include.staff.img %}{{include.staff.img}}{% else %}default.jpg{% endif %}" class="card-img-top rounded" alt="{{include.staff.name}}">
     <div class="card-body">
       <h6 class="card-title">{{include.staff.name}}</h6>
       <p class="card-text">{{include.staff.title}}</p>

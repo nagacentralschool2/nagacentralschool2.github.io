@@ -1,328 +1,257 @@
 - tab: Principal
   main:
     - name: "JULIET C. CURVA, Ph.D"
-      img: https://picsum.photos/250
+      img: default.jpg
       title: Principal II
 
 - tab: Kinder
   main:
     - name: JUDITH SAMONTE
-      img: https://picsum.photos/250
       title: Kinder Dean/Headstart
       sub:
   children:
     - name: ROSELLIA DELA SOLEDAD
-      img: https://picsum.photos/250
       title: K-RD1/K-RD2
       sub: Twinkler Leader
 
     - name: MARY ANN Z. CUADRO
-      img: https://picsum.photos/250
       title: K-MC1/K-MC2
       sub: Langkay Leader
 
     - name: HAZEL GRACE A. ABUQUE
-      img: https://picsum.photos/250
       title: K-HA1/K-HA2
       sub: SPG-COMELEC Adviser
 
     - name: MARIGIN C. BASALLOTE
-      img: https://picsum.photos/250
       title: K-MB1/K-MB2
       sub: Kid Scout Leader
 
 - tab: Grade I
   main:
     - name: MALBI B. STA. ROMANA
-      img: https://picsum.photos/250
       title: Grade I Dean/Orange
   children:
     - name: MAE R. AYAO
-      img: https://picsum.photos/250
       title: I-FL
       sub: FL Focal Person
 
     - name: ROCHELLE M. LABRADOR
-      img: https://picsum.photos/250
       title: I-SSES
 
     - name: MARIAN F. SIMANDO
-      img: https://picsum.photos/250
       title: I-Star
       sub: Star Scout Leader
 
     - name: ANNELLE S. NOMO
-      img: https://picsum.photos/250
       title: I-Melon
       sub: Kawan Leader
 
     - name: MARIA XENIA DC. MANAOG
-      img: https://picsum.photos/250
       title: I-Apple
       sub: ELLN K to 3 Coordinator
 
     - name: NERISSA G. MOYANO
-      img: https://picsum.photos/250
       title: I-Guava
       sub: Mother Tongue Coordinator
 
     - name: JACEL COLEEN ROMERO
-      img: https://picsum.photos/250
       title: I-Lemon
       sub: Twinkler Scout Coordinator
 
     - name: MEA NAIZA B. TARROBAGO
-      img: https://picsum.photos/250
       title: I-Mango
       sub: Special Events/DXMC
 
     - name: CATHYRINE D. BAZAR
-      img: https://picsum.photos/250
       title: I-Atis
 
 - tab: Grade II
   main:
     - name: JEDELYN B. MILLARES
-      img: https://picsum.photos/250
       title: Grade II Dean/FL
   children:
     - name: FRANCIA G. CABRAL
-      img: https://picsum.photos/250
       title: II-SSES
 
     - name: MARLYN G. VILLAFUERTE
-      img: https://picsum.photos/250
       title: II-Star
       sub: Kab Scout Coordinator
 
     - name: ELSIE A. POVEDA
-      img: https://picsum.photos/250
       title: II-Aphrodite
       sub: Brigada Eskwela / Community Coordinator
 
     - name: MARIA SHEILA H. LLORCA
-      img: https://picsum.photos/250
       title: II-Hemera
       sub: Special Events/DXMC
 
     - name: LANIE C. BADONG
-      img: https://picsum.photos/250
       title: II-Anthlia
       sub: Prefect of Discipline
 
     - name: ANNABELLE A. BARRAMEDA
-      img: https://picsum.photos/250
       title: II-Hestia
       sub: Star Scout Coordinator
 
 - tab: Grade III
   main:
     - name: MEDALLA C. VERGARA
-      img: https://picsum.photos/250
       title: Grade III Dean/Star
   children:
     - name: LILIA T. ASICO
-      img: https://picsum.photos/250
       title: III-FL
 
     - name: MA. JULIE F. SABALLEGUE
-      img: https://picsum.photos/250
       title: III-SSES
       sub: Science and YES-O
 
     - name: BELEN R. MARTIREZ
-      img: https://picsum.photos/250
       title: III-Sunflower
 
     - name: MADELENE O. PADUA
-      img: https://picsum.photos/250
       title: III-Sampaguita
 
     - name: SANDRA S. PILAPIL
-      img: https://picsum.photos/250
       title: III-Magnolia
 
 - tab: Grade IV
   main:
     - name: IRENE B. CANAPIT
-      img: https://picsum.photos/250
       title: Grade IV Dean/Star
   children:
     - name: SARAH JEAN B. LAGATUZ
-      img: https://picsum.photos/250
       title: IV-FL
       sub: ESP Coordinator
 
     - name: SHEENA LYN S. BRIONES
-      img: https://picsum.photos/250
       title: IV-SSES
       sub: SSES Coordinator
 
     - name: JASMIN B. CECILIO
-      img: https://picsum.photos/250
       title: IV-Opal
       sub: GSP Leader
 
     - name: MARY JANE T. BOLIMA
-      img: https://picsum.photos/250
       title: IV-Ruby
 
     - name: SHERRY S. CIELOS
-      img: https://picsum.photos/250
       title: IV-Jade
       sub: Sports Coordinator
 
     - name: JANETTE C. TUD
-      img: https://picsum.photos/250
       title: Math Coordinator
 
     - name: MA. ANGELA KARANDANG
-      img: https://picsum.photos/250
       title: IV-Emerald
 
 - tab: Grade V
   main:
     - name: ANALISA C. AGAPITO
-      img: https://picsum.photos/250
       title: Grade V Dean/Polaris
   children:
     - name: MARIA JULIET L. BELORO
-      img: https://picsum.photos/250
       title: V-FL
       sub: Music Coordinator
 
     - name: MARIE GRACE D. GALANG
-      img: https://picsum.photos/250
       title: V-SSES
       sub: English Coordinator
 
     - name: FRANCIA T. ARQUILLA
-      img: https://picsum.photos/250
       title: V-Star
       sub: Clinic Coordinator
 
     - name: SALVE TERESA O. SAN JOSE
-      img: https://picsum.photos/250
       title: V-Lyra
       sub: HE Coordinator
 
     - name: TIFANNY JOY B. NOBLEZA
-      img: https://picsum.photos/250
       title: V-Centurion
       sub: Filipino Coordinator
 
     - name: MARICHEL R. GAURINO
-      img: https://picsum.photos/250
       title: V-Anthlia
       sub: Special Events/Voyadores
 
     - name: JOY R. COLOQUIT
-      img: https://picsum.photos/250
       title: V-Perseus
       sub: Religion Coordinator
 
 - tab: Grade VI
   main:
     - name: CHERYL F. AQUINO
-      img: https://picsum.photos/250
       title: Grade VI Dean/ Earth
   children:
     - name: BHISSIE P. RIGUNAY
-      img: https://picsum.photos/250
       title: VI-SSES
       sub: GAD/School Paper Adviser
 
     - name: IMELDA A. MACARAEG
-      img: https://picsum.photos/250
       title: VI-Star
 
     - name: MARIBETH F. AURELLANO
-      img: https://picsum.photos/250
       title: VI-Jupiter
       sub: PTA Coordinator
 
     - name: MARY CIELO  R. BOQUE
-      img: https://picsum.photos/250
       title: VI-Mercury
       sub: Jr. GSP Coordinator
 
     - name: NILDA D. TANDAAN
-      img: https://picsum.photos/250
       title: VI-Saturn
 
     - name: MARIA B. HERRAS
-      img: https://picsum.photos/250
       title: VI-Uranus
 
     - name: CRISTITA M. NAVARRO
-      img: https://picsum.photos/250
       title: VI-Neptune
       sub: SPG/AP Coordinator
 
     - name: OSCAR MANUEL DC. MANAOG
-      img: https://picsum.photos/250
       title: VI-Mars
       sub: Data Management Coordinator
 
 - tab: Subject Teachers
   main:
     - name: JOCELIE A. BUENA
-      img: https://picsum.photos/250
       title: Subject Teacher Dean
       sub: SBFP Coordinator
   children:
     - name: VICENTE B. OCBIAN
-      img: https://picsum.photos/250
       title: Gulayan sa Paaralan/WinS/Physical Facilities Coordinator
 
     - name: KARL MICHAEL S. BERMEJO
-      img: https://picsum.photos/250
       title: Property Custodian
 
     - name: JIL P. BUENA
-      img: https://picsum.photos/250
       title: DRRM Coordinator
 
     - name: ALDRIN P. MARAVILLA
-      img: https://picsum.photos/250
       title: Prefect of Discipline/ Industrial Arts Coordinator
 
     - name: ERMELITA S. ALBALATE
-      img: https://picsum.photos/250
       title: Twinkler Leader
 
     - name: SHEILA P. CHEVALLIER
-      img: https://picsum.photos/250
       title: ICT Coordinator
 
     - name: G.J. LESLIE A. RIFAREAL
-      img: https://picsum.photos/250
       title: Guidance Coordinator
 
     - name: GABRIEL E. DAVID
-      img: https://picsum.photos/250
       title: BSP Coordinator
 
     - name: JOE MARIE B. MOLINA
-      img: https://picsum.photos/250
 
     - name: PATRICIA MAE DM. NOBLEZA
-      img: https://picsum.photos/250
 
     - name: ANDREI FRONDOZO
-      img: https://picsum.photos/250
 
 - tab: Utility Workers
   children:
     - name: JULIET TUMBADO
-      img: https://picsum.photos/250
     - name: ATE 1
-      img: https://picsum.photos/250
     - name: ATE 2
-      img: https://picsum.photos/250
     - name: ALEXIS FERRO
-      img: https://picsum.photos/250
     - name: JEROME GAURINO
-      img: https://picsum.photos/250
     - name: KUYA GUARD
-      img: https://picsum.photos/250
