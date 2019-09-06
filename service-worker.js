@@ -14,6 +14,14 @@ if (workbox) {
     suffix: suffix
   });
 
+  // We'll display that "offline" page if the user is offline and navigates to a page that's not cached yet.
+  const offlinePage = '/offline.html';
+  self.addEventListener('install', (event) => {
+    const urls = [offlinePage];
+    const cacheName = prefix + '-own-' + suffix;
+    event.waitUntil(caches.open(cacheName).then((cache) => cache.addAll(urls)))
+  });
+
   // Cache external js and css with stale while revalidating strategy.
   workbox.routing.registerRoute(
     new RegExp('('
@@ -29,10 +37,24 @@ if (workbox) {
 
   // Cache our own HTML and CSS with stale while revalidating strategy.
   workbox.routing.registerRoute(
-    /\.(?:css|html)$/,
+    /\.css/,
     new workbox.strategies.StaleWhileRevalidate({
-      cacheName: prefix + '-own-' + suffix,
+      cacheName: prefix + '-css-' + suffix,
     })
+  );
+
+  // NOTE: the following doesn't match the root '/' of the website. So in the links we used '/index.html'.
+  workbox.routing.registerRoute(
+    /\.html$/,
+    async ({event}) => {
+      try {
+        return await workbox.strategies.staleWhileRevalidate({
+            cacheName:  prefix + '-html-' + suffix
+        }).handle({event});
+      } catch (error) {
+        return caches.match(offlinePage);
+      }
+    }
   );
 
   // Cache images, with cache first strategy.

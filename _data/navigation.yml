@@ -1,5 +1,5 @@
 - name: Home
-  link: /
+  link: /index.html
 - name: About Us
   id: aboutus
   link: /about-us/
