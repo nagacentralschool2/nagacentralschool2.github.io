@@ -1,0 +1,21 @@
+{
+  "short_name": "NCS2",
+  "name": "Naga Central School II",
+  "icons": [
+    {
+      "src": "/assets/img/ncs2_logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/ncs2_logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#eeeeee",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#eeeeee"
+}
