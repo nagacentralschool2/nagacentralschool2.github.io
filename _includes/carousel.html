@@ -16,7 +16,7 @@
     {% for item in site.data.carousel %}
 
     <div class="carousel-item {% if forloop.first %} active {% endif %}">
-      <img src="/assets/img/carousel/{{item.img}}" class="d-block w-100" alt="{{item.title}}">
+      <img src="/assets/img/carousel/{{item.img}}" class="d-block w-100" alt="{% if item.title %}{{item.title}}{% else %}{{item.img | replace: '.jpg', '' | replace: '-', ' '}}{% endif %}">
       <div class="carousel-caption">
         <h5>{{item.title}}</h5>
         <p class="d-none d-md-block">{{item.text}}</p>
