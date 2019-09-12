@@ -48,7 +48,7 @@ if (workbox) {
     /\.html$/,
     async ({event}) => {
       try {
-        return await workbox.strategies.NetworkFirst({
+        return await new workbox.strategies.NetworkFirst({
             cacheName:  prefix + '-html-' + suffix
         }).handle({event});
       } catch (error) {
