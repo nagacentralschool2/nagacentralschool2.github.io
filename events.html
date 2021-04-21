@@ -5,10 +5,10 @@ title: Events
 #### Events
 
 {% comment %} 
-	We sort the events from earliest to furthest in time.
-	To order the other way, you can use the "reverse" filter:
+	We put the events as they appear in the events.yml file.
+	To order the other way around, we should be able to use the "reverse" filter,
+	but it doesn't seem to work:
 	{% assign sortedItems = site.events | reverse %}
 {% endcomment %}
 
-{% assign sortedItems = site.events %}
-{% include list.html items=sortedItems %}
+{% include list.html items=site.events %}
