@@ -22,16 +22,12 @@
       link: /academic-programs/headstart.html
     - name: K to 12
       link: /academic-programs/k-to-12.html
-- name: School Report
+- name: Report
   link: /school-report/
   id: schoolreport
   children:
-    - name: Enrolment
-      link: /school-report/enrolment.html
-    - name: Nutritional Status
-      link: /school-report/nutritional-status.html
-    - name: Phil-IRI
-      link: /school-report/phil-iri.html
+    - name: School Report Card
+      link: /school-report/school-report-card.html
 - name: Downloads
   link: /downloads.html
 - name: Contact Us
