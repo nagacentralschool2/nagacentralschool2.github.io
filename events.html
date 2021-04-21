@@ -4,5 +4,11 @@ title: Events
 ---
 #### Events
 
-{% assign sortedItems = site.events | reverse %}
+{% comment %} 
+	We sort the events from earliest to furthest in time.
+	To order the other way, you can use the "reverse" filter:
+	{% assign sortedItems = site.events | reverse %}
+{% endcomment %}
+
+{% assign sortedItems = site.events %}
 {% include list.html items=sortedItems %}
