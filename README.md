@@ -4,9 +4,15 @@ See it at [nagacentralschool2.github.io](https://nagacentralschool2.github.io)
 
 # Header
 
-The content of the header is defined in `_data/navigation.yml`.
+The header contains the logo at the top, the name of the school and its ID, as well as some navigation links.
 
-It currently contains the following menus.
+To modify the logo, name or school ID, in `_data/header.yml`, change the corresponding `img`, `name` or `id`. The image must be in `assets/img`.
+
+The navigation links are defined in `_data/navigation.yml`. The color of those links is defined in `assets/css/styles.scss`.
+
+Power users can look at `_includes/header.html`. Bootstrap is being used.
+
+Here are the current links in the navigation pane.
 
 ## Home
 
