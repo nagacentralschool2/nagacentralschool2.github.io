@@ -1,9 +1,13 @@
-<a href="/index.html"><img src="/assets/img/ncs2_facade_long.jpg" class="img-fluid" alt="School Facade"></a>
+{% assign header = site.data.header %}
+
+<a href="/index.html">
+	<img src="/assets/img/{{ header.img }}" class="img-fluid" alt="School Facade">
+</a>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
   <a class="navbar-brand p-0" href="/index.html">
-    <span class="align-middle h5">Naga Central School II</span>
-    <span class="align-middle d-block navbar-subbrand">School ID: 114501</span>
+    <span class="align-middle h5">{{ header.name }}</span>
+    <span class="align-middle d-block navbar-subbrand">School ID: {{ header.id }}</span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
     aria-expanded="false" aria-label="Toggle navigation">
