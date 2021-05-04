@@ -30,7 +30,7 @@ title:
 
       {% if group.main %}
       {% assign main = group.main | first %}
-      {% include staff.html staff=main center=true %}
+      {% include staff.html staff=main dir="staff" center=true %}
       {% endif %}
 
     </div>
@@ -38,7 +38,7 @@ title:
     <div class="row">
 
       {% for staff in group.children %}
-      {% include staff.html staff=staff %}
+      {% include staff.html staff=staff dir="staff" %}
       {% endfor %}
 
     </div>
