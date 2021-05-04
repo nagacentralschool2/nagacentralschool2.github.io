@@ -2,10 +2,12 @@
 ---
 @import "main";
 
+// The color of the inactive links in the header (ie the links not corresponding to the page being shown).
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0,0,0,1);
 }
 
+// The color of the active link in the header (ie the link corresponding to the page being shown).
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: rgba(254,0,0,.9);
 }

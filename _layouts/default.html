@@ -28,6 +28,11 @@
 
   <div class="container shadow bg-light p-0">
     {% include header.html %}
+
+    <!-- 
+      The main content of the site, below the header.
+      The "p-4" class allows to have some padding on all sides.
+    -->
     <div class="p-4">{{ content | markdownify }}</div>
   </div>
 
