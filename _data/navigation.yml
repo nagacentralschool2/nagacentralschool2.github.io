@@ -28,6 +28,10 @@
   children:
     - name: School Report Card
       link: /school-report/school-report-card.html
+    - name: MOOE Disbursement
+      link: /school-report/mooe.html
+    - name: Financial Report
+      link: /school-report/financialreport.html
 - name: Downloads
   link: /downloads.html
 - name: School Paper
