@@ -53,7 +53,7 @@ Each `tab` can contain 0 or 1 `main` person, 0, 1 or more persons under, aka `ch
 Each person, either `main` or under `children`, has
 
 - `name`
-- `img` (optional, defaults to `default.jpg` that shows an avatar)
+- `img` (optional, defaults to `default.jpg` that shows an avatar, must be in `assets/img/staff`)
 - `title` (optional, eg the grade level or rank)
 - `sub` (optional, eg Star Scout Leader)
 
@@ -64,29 +64,35 @@ Here is an example:
 - tab: Kinder
   main:
     - name: JUDITH SAMONTE
+      img: Judith Samonte.jpg
       title: Kinder Dean/Headstart
   children:
     - name: ROSELLIA DELA SOLEDAD
       title: K-RD1/K-RD2
       sub: Twinkler Leader
-
     - name: MARY ANN Z. CUADRO
       title: K-MC1/K-MC2
       sub: Langkay Leader
-
-    - name: HAZEL GRACE A. ABUQUE
-      title: K-HA1/K-HA2
-      sub: SPG-COMELEC Adviser
+- tab: Grade I
+  main:
+    - name: MALBI B. STA. ROMANA
+      title: Grade I Dean/Orange
+  children:
+    - name: MAE R. AYAO
 
 ```
 
-Power users can check `about-us/faculty-and-staff.html` to see the template.
+Power users can check `about-us/faculty-and-staff.html` to see the template. It makes use of `_includes/staff.html` to make the template of each tab reusable. It's also used by the previous heads page.
 
 ### Previous School Heads
 
 The page displays the data from `_data/prevheads.yml`, in the order it appears.
 
-Each previous school head must have a `name`, `img` (the name of the image that is stored under `assets/img/staff`) and `title` (currently this only contains the dates when they were school head).
+Each previous school head must have
+
+- `name`
+- `img` (the name of the image that is stored under `assets/img/prev-heads`)
+- `title` (currently this only contains the dates when they were school head).
 
 Example:
 
@@ -97,6 +103,8 @@ Example:
   title: 1989-1991
 
 ```
+
+Power users can check `about-us/previous-school-heads.html` to see the template. It makes use of `_includes/staff.html` to make the template reusable with the staff page.
 
 ## Academic Programs
 
