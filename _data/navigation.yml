@@ -32,9 +32,9 @@
       link: /school-report/mooe.html
     - name: Financial Report
       link: /school-report/financialreport.html
-- name: Downloads
-  link: /downloads.html
 - name: School Paper
   link: /school-paper/centralarchers.html
+- name: Downloads
+  link: /downloads.html
 - name: Contact Us
   link: /contact-us.html
