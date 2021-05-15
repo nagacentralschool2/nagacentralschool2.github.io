@@ -1,6 +1,6 @@
 - tab: Principal
   main:
-    - name: JULIET C. CURVA, Ph.D
+    - name: JULIET C. CURVA, PhD
       img: CURVA_JULIET_CRUZAT.jpg
       title: Principal II
 
@@ -9,7 +9,7 @@
     - name: JUDITH SAMONTE
       img: K_samonte judith.jpg
       title: Kinder Dean/Headstart
-      sub:
+      sub: 4Ps Coordinator
   children:
     - name: ROSELLIA DELA SOLEDAD
       img: K_dela soledad rosellia n.jpg
@@ -31,25 +31,32 @@
       title: K-MB1/K-MB2
       sub: Kid Scout Leader
 
+    - name: MADEL C. RUIVIVAR
+      img: K_ruivivar madel.jpg
+      title: K-MR1/K-MR2
+      sub: 
+
 - tab: Grade I
   main:
     - name: MALBI B. STA. ROMANA
       img: G1_sta romana malbi b.jpg
       title: Grade I Dean/Orange
-  children:
-    - name: MAE R. AYAO
-      img: G1_ayao mae r.jpg
-      title: I-FL
-      sub: FL Focal Person
 
+  children:
     - name: ROCHELLE M. LABRADOR
       img: G1_labrador rochelle.jpg
-      title: I-SSES
+      title: I-SSES A
+      sub: OK ka DepED-Mental Health
+
+    - name: MAE R. AYAO
+      img: G1_ayao mae r.jpg
+      title: I-SSES B
+      sub: 
 
     - name: MARIAN F. SIMANDO
       img: G1_simando marian f.jpg
       title: I-Star
-      sub: Star Scout Leader
+      sub: ST/FS Coordinator
 
     - name: ANNELLE S. NOMO
       img: G1_nomo annelle s.jpg
@@ -59,61 +66,72 @@
     - name: MARIA XENIA DC. MANAOG
       img: G1_manaog maria xenia d.jpg
       title: I-Apple
-      sub: ELLN K to 3 Coordinator
+      sub: OK ka DepEd Coordinator
 
     - name: NERISSA G. MOYANO
       img: G1_moyano nerisa g.jpg
       title: I-Guava
       sub: Mother Tongue Coordinator
 
-    - name: JACEL COLEEN ROMERO
-      img: G1_romero jacel coleen.jpg
-      title: I-Lemon
-      sub: Twinkler Scout Coordinator
-
     - name: MEA NAIZA B. TARROBAGO
       img: G1_tarrobago mea naiza.jpg
       title: I-Mango
-      sub: Special Events/DXMC
+      sub: 
 
-    - name: CATHYRINE D. BAZAR
-      img: G3_bazar cathyrine d.jpg
-      title: I-Atis
+    - name: JACEL COLEEN ROMERO
+      img: G1_romero jacel coleen.jpg
+      title: I-Lemon
+      sub: Twinkler Scout Leader
 
 - tab: Grade II
   main:
     - name: JEDELYN B. MILLARES
       img: G2_millares jedelyn b.jpg
-      title: Grade II Dean/FL
+      title: Grade II Dean/SSES B
   children:
     - name: FRANCIA G. CABRAL
       img: G2_cabral francia g.jpg
-      title: II-SSES
+      title: II-SSES A
 
     - name: MARLYN G. VILLAFUERTE
       img: G2_villafuerte marlyn g.jpg
       title: II-Star
-      sub: Kab Scout Coordinator
+      sub: Kab Scout Leader
 
     - name: ELSIE A. POVEDA
       img: G2_poveda elsie.jpg
       title: II-Aphrodite
-      sub: Brigada Eskwela / Community Coordinator
+      sub: Gulayan sa Paaralan Coordinator
+
+    - name: CRISTITA M. NAVARRO
+      img: G2_navarro cristita m.jpg
+      title: II-Freya
+      sub: SPG/AP Coordinator
 
     - name: MARIA SHEILA H. LLORCA
       img: G2_llorca maria sheila h.jpg
       title: II-Hemera
-      sub: Special Events/DXMC
+      sub: 
 
-    - name: LANIE C. BADONG
-      img: G3_badong lanie c.jpg
-      title: II-Anthlia
-      sub: Prefect of Discipline
+    - name: MARY CIELO  R. BOQUE
+      img: G2_boque marycielo r.jpg
+      title: II-Athena
+      sub: Jr. GSP Coordinator
 
     - name: ANNABELLE A. BARRAMEDA
       img: G2_barrameda annabelle.jpg
       title: II-Hestia
-      sub: Star Scout Coordinator
+      sub: Star Scout Leader
+
+    - name: TIFANNY JOY B. NOBLEZA
+      img: G2_nobleza tifanny joy b.jpg
+      title: II-Iris
+      sub: Filipino Coordinator
+
+    - name: KATRINA S. BERINA
+      img: G2_berina katrina.JPG
+      title: II-Eros
+      sub: 
 
 - tab: Grade III
   main:
@@ -121,14 +139,16 @@
       img: G3_vergara medalla c.jpg
       title: Grade III Dean/Star
   children:
-    - name: LILIA T. ASICO
-      img: G5_asico lilia t.jpg
-      title: III-FL
 
     - name: MA. JULIE F. SABALLEGUE
       img: G3_saballegue ma julie f.jpg
-      title: III-SSES
+      title: III-SSES A
       sub: Science and YES-O
+
+    - name: SARAH JEAN B. LAGATUZ
+      img: G3_lagatuz sarah jean b.jpg
+      title: III-SSES B
+      sub: ESP Coordinator
 
     - name: BELEN R. MARTIREZ
       img: G3_martirez belen r.jpg
@@ -142,42 +162,44 @@
       img: G3_pilapil sandra s.jpg
       title: III-Magnolia
 
+    - name: CATHYRINE D. BAZAR
+      img: G3_bazar cathyrine d.jpg
+      title: III-Rose
+
+    - name: LLIANDRAE E. FRONDOZO
+      img: G3_frondozo Lliandrae e.jpg
+      title: III-Daffodil
+
 - tab: Grade IV
   main:
     - name: IRENE B. CANAPIT
       img: G4_canapit irene b.jpg
       title: Grade IV Dean/Star
   children:
-    - name: SARAH JEAN B. LAGATUZ
-      img: G3_lagatuz sarah jean b.jpg
-      title: IV-FL
-      sub: ESP Coordinator
-
     - name: SHEENA LYN S. BRIONES
       img: G4_briones sheena lyn s.jpg
-      title: IV-SSES
+      title: IV-SSES A
       sub: SSES Coordinator
 
-    - name: JASMIN B. CECILIO
-      img: G6_cecilio jasmin b.jpg
-      title: IV-Opal
-      sub: GSP Leader
+    - name: SHERRY S. CIELOS
+      img: G4_cielos sherry s.jpg
+      title: IV-SSES B
+      sub: Sports/Wellness Coordinator
 
     - name: MARY JANE T. BOLIMA
       img: G4_bolima mary jane t.jpg
       title: IV-Ruby
-
-    - name: SHERRY S. CIELOS
-      img: G4_cielos sherry s.jpg
-      title: IV-Jade
-      sub: Sports Coordinator
+      sub: NDEP Coordinator
 
     - name: JANETTE C. TUD
       img: G4_tud janette c.jpg
-      title: Math Coordinator
+      title: IV-Garnet
+      sub: Math Coordinator
 
-    - name: MA. ANGELA KARANDANG
+    - name: ZALDO C. SAAVEDRA
+      img: G4_saavedra zaldo c.jpg
       title: IV-Emerald
+      sub: CHA-CHING Coordinator
 
 - tab: Grade V
   main:
@@ -185,40 +207,45 @@
       img: G5_agapito analiza c.jpg
       title: Grade V Dean/Polaris
   children:
-    - name: MARIA JULIET L. BELORO
-      img: G5_beloro maria juliet.jpg
-      title: V-FL
-      sub: Music Coordinator
-
     - name: MARIE GRACE D. GALANG
       img: G5_galang marie grace d.jpg
-      title: V-SSES
+      title: V-SSES A
       sub: English Coordinator
 
-    - name: FRANCIA T. ARQUILLA
+    - name: MARIA JULIET L. BELORO
+      img: G5_beloro maria juliet.jpg
+      title: V-SSES B
+      sub: Music Coordinator
+
+    - name: LILIA T. ASICO
+      img: G5_asico lilia t.jpg
       title: V-Star
-      sub: Clinic Coordinator
+      sub: WinS Coordinator
 
     - name: SALVE TERESA O. SAN JOSE
       img: G5_san jose salve teresa o.jpg
       title: V-Lyra
-      sub: HE Coordinator
+      sub: Faculty President
 
-    - name: TIFANNY JOY B. NOBLEZA
-      img: G2_nobleza tifanny joy b.jpg
+    - name: JOE MARIE B. MOLINA
+      img: G5_molina joe marie b.jpg
       title: V-Centurion
-      sub: Filipino Coordinator
-
-    - name: MARICHEL R. GAURINO
-      img: G3_gaurino marichel r.jpg
-      title: V-Anthlia
-      sub: Special Events/Voyadores
+      sub: 
 
     - name: JOY R. COLOQUIT
       img: G5_coloquit joy r.jpg
       title: V-Perseus
       sub: Religion Coordinator
 
+    - name: FRANCIA LOVIE V. BARBOSA
+      img: G5_barbosa francia lovie.jpg
+      title: V-Cassiopeia
+      sub: 
+
+    - name: ELLA MAE P. BOLANTE
+      img: G5_bolante ella mae.jpg
+      title: V-Antlia
+      sub: 
 - tab: Grade VI
   main:
     - name: CHERYL F. AQUINO
@@ -227,39 +254,37 @@
   children:
     - name: BHISSIE P. RIGUNAY
       img: G6_rigunay bhissie p.jpg
-      title: VI-SSES
+      title: VI-SSES A
       sub: GAD/School Paper Adviser
 
     - name: IMELDA A. MACARAEG
       img: G6_macaraeg imelda a.jpg
+      title: VI-SSES B
+
+    - name: MARIA B. HERRAS
+      img: G6_herras maria b.jpg
       title: VI-Star
+      sub: Brigada Coordinator
 
-    - name: MARIBETH F. AURELLANO
+    - name: PATRICIA MAE DM. NOBLEZA
+      img: G6_nobleza patricia mae dm.jpg
       title: VI-Jupiter
-      sub: PTA Coordinator
-
-    - name: MARY CIELO  R. BOQUE
-      img: G2_boque marycielo r.jpg
-      title: VI-Mercury
-      sub: Jr. GSP Coordinator
+      sub: 
 
     - name: NILDA D. TANDAAN
       img: G6_tandaan nilda d.jpg
       title: VI-Saturn
+      sub: Clinic Coordinator
 
-    - name: MARIA B. HERRAS
-      img: G6_herras maria b.jpg
-      title: VI-Uranus
+    - name: JASMIN B. CECILIO
+      img: G6_cecilio jasmin b.jpg
+      title: IV-Uranus
+      sub: GSP Leader
 
-    - name: CRISTITA M. NAVARRO
-      img: G2_navarro cristita m.jpg
-      title: VI-Neptune
-      sub: SPG/AP Coordinator
-
-    - name: OSCAR MANUEL DC. MANAOG
-      img: G6_manaog oscar manuel d.jpg
-      title: VI-Mars
-      sub: Data Management Coordinator
+    - name: MONA LISSA P. APOLINAR
+      img: G6_apolinar mona lissa p.jpg
+      title: VI-Mercury
+      sub: 
 
 - tab: Subject Teachers
   main:
@@ -268,55 +293,63 @@
       title: Subject Teacher Dean
       sub: SBFP Coordinator
   children:
-    - name: VICENTE B. OCBIAN
-      title: Gulayan sa Paaralan/WinS/Physical Facilities Coordinator
+    - name: ERMELITA S. ALBALATE
+      img: G2_albalate ermelita s.jpg
+      title: Twinkler Leader
+
+    - name: LANIE C. BADONG
+      img: G3_badong lanie c.jpg
+      sub: 
+
+    - name: MARICHEL R. GAURINO
+      img: G3_gaurino marichel r.jpg
+      sub: 
+
+    - name: SHEILA P. CHEVALLIER
+      img: G4_chevallier sheila p.jpg
+      title: ICT/LIS Coordinator
 
     - name: KARL MICHAEL S. BERMEJO
       img: G4_bermejo karl.jpg
       title: Property Custodian
 
-    - name: JIL P. BUENA
-      img: G6_buena jil p.jpg
-      title: DRRM Coordinator
-
-    - name: ALDRIN P. MARAVILLA
-      img: G5_maravilla aldrin p.jpg
-      title: Prefect of Discipline/ Industrial Arts Coordinator
-
-    - name: ERMELITA S. ALBALATE
-      img: G2_albalate ermelita s.jpg
-      title: Twinkler Leader
-
-    - name: SHEILA P. CHEVALLIER
-      img: G4_chevallier sheila p.jpg
-      title: ICT Coordinator
-
-    - name: G.J. LESLIE A. RIFAREAL
-      img: G6_rifareal gj leslie a.jpg
-      title: Guidance Coordinator
-
     - name: GABRIEL E. DAVID
       img: G5_david gabriel e.jpg
       title: BSP Coordinator
 
-    - name: JOE MARIE B. MOLINA
-      img: G5_molina joe marie b.jpg
+    - name: ALDRIN P. MARAVILLA
+      img: G5_maravilla aldrin p.jpg
+      sub: 
 
-    - name: PATRICIA MAE DM. NOBLEZA
-      img: G6_nobleza patricia mae dm.jpg
+    - name: G.J. LESLIE A. RIFAREAL
+      img: G6_rifareal gj leslie a.jpg
+      title: Guidance/Project W.A.T.C.H Coordinator
 
-    - name: ANDREI FRONDOZO
-      img: G3_frondozo Lliandrae e.jpg
+    - name: JIL P. BUENA
+      img: G6_buena jil p.jpg
+      title: DRRM Coordinator
 
-- tab: Utility Workers
+    - name: OSCAR MANUEL DC. MANAOG
+      img: G6_manaog oscar manuel d.jpg
+      title: Database Management Coordinator
+
+- tab: Non-Teaching
   children:
+    - name: MARY GRACE JAPSON
+      img: Japson MaryGrace.jpg
+    - name: GJ Sigrid Aspe
+      img: aspe gj sigrid.jpg
+    - name: Sonia Gabatin
+      img: gabatin sonia.jpg
     - name: JULIETA R. BOÑON
       img: boñon julieta r.jpg
     - name: MERCY M. CAO
       img: mercy.jpg
+    - name: BOB R. DEN
+      img: den bobby r.jpg
     - name: RIEZEL B. NAGAL
       img: nagal riezel b.jpg
+    - name: JIMMY N. DURANTE
+      img: durante jimmy n.jpg
     - name: ALEXIS FERRO
       img: ferro alexis.jpg
-    - name: JEROME GAURINO
-    - name: KUYA GUARD
