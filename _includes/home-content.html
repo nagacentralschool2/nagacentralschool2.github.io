@@ -1,5 +1,38 @@
 <div class="row pt-4">
 
+  <div class="col-lg-4 col-md-6 pb-3">
+    <div class="card h-100">
+      <div class="card-body">
+	  <a href="/feature/seenn.html">
+	    <img src="/assets/img/thumbnail_seenn.jpg" class="img-fluid d-block mx-auto" />
+	  </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 pb-3">
+    <div class="card h-100">
+      <div class="card-body">
+	  <a href="/feature/sosa.html">
+	  <img src="/assets/img/thumbnail_sosa.jpg" class="img-fluid d-block mx-auto" />
+	  </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 pb-3">
+    <div class="card h-100">
+      <div class="card-body">
+	  <img src="/assets/img/thumbnail_brigada.jpg" class="img-fluid d-block mx-auto" />
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="row pt-4">
+
   {% include events.html title='Events' items=site.data.events  %}
 
   {% assign sortedAnnouncements = site.announcements | reverse %}
