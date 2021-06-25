@@ -32,6 +32,9 @@
       link: /school-report/mooe.html
     - name: Financial Report
       link: /school-report/financialreport.html
+    - name: Site Development Plan
+      link: /school-report/site-devt-plan.html
+
 - name: School Paper
   link: /school-paper/centralarchers.html
 - name: Downloads

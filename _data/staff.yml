@@ -336,21 +336,33 @@
 
 - tab: Non-Teaching
   children:
-    - name: MARY GRACE JAPSON
-      img: Japson MaryGrace.jpg
-    - name: GJ SIGRID ASPE
-      img: aspe gj sigrid.jpg
+    - name: MA. SUNSHINE A. JACOB
+      img: default.jpg
+      title: Admin Officer II
     - name: SONIA GABATIN
       img: gabatin sonia.jpg
+      title: SBHW
+    - name: MARY GRACE JAPSON
+      img: Japson MaryGrace.jpg
+      title: Clerk
+    - name: GJ SIGRID ASPE
+      img: aspe gj sigrid.jpg
+      title: Clerk
     - name: JULIETA R. BOÑON
       img: boñon julieta r.jpg
+      title: Clerk
     - name: MERCY M. CAO
       img: mercy.jpg
-    - name: BOB R. DEN
-      img: den bobby r.jpg
+      title: Utility Worker
     - name: RIEZEL B. NAGAL
       img: nagal riezel b.jpg
-    - name: JIMMY N. DURANTE
-      img: durante jimmy n.jpg
+      title: Utility Worker
     - name: ALEXIS FERRO
       img: ferro alexis.jpg
+      title: Utility Worker
+    - name: BOB R. DEN
+      img: den bobby r.jpg
+      title: School Guard
+    - name: JIMMY N. DURANTE
+      img: durante jimmy n.jpg
+      title: School Guard
