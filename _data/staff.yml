@@ -2,15 +2,21 @@
   main:
     - name: JULIET C. CURVA, PhD
       img: CURVA_JULIET_CRUZAT.jpg
-      title: Principal II
+      title: Principal III
 
 - tab: Kinder
   main:
+    - name: MADEL C. RUIVIVAR
+      img: K_ruivivar madel.jpg
+      title: Kinder Dean/K-MR1/K-MR2
+      sub: 
+
+  children:
     - name: JUDITH SAMONTE
       img: K_samonte judith.jpg
-      title: Kinder Dean/Headstart
+      title: HS1/HS2
       sub: 4Ps Coordinator
-  children:
+
     - name: ROSELLIA DELA SOLEDAD
       img: K_dela soledad rosellia n.jpg
       title: K-RD1/K-RD2
@@ -31,16 +37,12 @@
       title: K-MB1/K-MB2
       sub: Kid Scout Leader
 
-    - name: MADEL C. RUIVIVAR
-      img: K_ruivivar madel.jpg
-      title: K-MR1/K-MR2
-      sub: 
-
 - tab: Grade I
   main:
-    - name: MALBI B. STA. ROMANA
-      img: G1_sta romana malbi b.jpg
-      title: Grade I Dean/Orange
+    - name: ANNELLE S. NOMO
+      img: G1_nomo annelle s.jpg
+      title: Grade I Dean/I-Melon
+      sub: Kawan Leader
 
   children:
     - name: ROCHELLE M. LABRADOR
@@ -58,10 +60,9 @@
       title: I-Star
       sub: ST/FS Coordinator
 
-    - name: ANNELLE S. NOMO
-      img: G1_nomo annelle s.jpg
-      title: I-Melon
-      sub: Kawan Leader
+    - name: MALBI B. STA. ROMANA
+      img: G1_sta romana malbi b.jpg
+      title: I-Orange
 
     - name: MARIA XENIA DC. MANAOG
       img: G1_manaog maria xenia d.jpg
@@ -78,20 +79,25 @@
       title: I-Mango
       sub: 
 
-    - name: JACEL COLEEN ROMERO
+    - name: JACEL COLEEN R. OBINA
       img: G1_romero jacel coleen.jpg
       title: I-Lemon
       sub: Twinkler Scout Leader
 
 - tab: Grade II
   main:
-    - name: JEDELYN B. MILLARES
-      img: G2_millares jedelyn b.jpg
-      title: Grade II Dean/SSES B
+    - name: MARYCIELO  R. BOQUE
+      img: G2_boque marycielo r.jpg
+      title: Grade II Dean/II-Athena
+      sub: Jr. GSP Coordinator
   children:
     - name: FRANCIA G. CABRAL
       img: G2_cabral francia g.jpg
       title: II-SSES A
+
+    - name: JEDELYN B. MILLARES
+      img: G2_millares jedelyn b.jpg
+      title: SSES B
 
     - name: MARLYN G. VILLAFUERTE
       img: G2_villafuerte marlyn g.jpg
@@ -113,11 +119,6 @@
       title: II-Hemera
       sub: 
 
-    - name: MARYCIELO  R. BOQUE
-      img: G2_boque marycielo r.jpg
-      title: II-Athena
-      sub: Jr. GSP Coordinator
-
     - name: ANNABELLE A. BARRAMEDA
       img: G2_barrameda annabelle.jpg
       title: II-Hestia
@@ -135,9 +136,9 @@
 
 - tab: Grade III
   main:
-    - name: MEDALLA C. VERGARA
-      img: G3_vergara medalla c.jpg
-      title: Grade III Dean/Star
+    - name: CATHYRINE D. BAZAR
+      img: G3_bazar cathyrine d.jpg
+      title: Grade III Dean/III-Rose
   children:
 
     - name: MA. JULIE F. SABALLEGUE
@@ -150,10 +151,14 @@
       title: III-SSES B
       sub: ESP Coordinator
 
+    - name: MEDALLA C. VERGARA
+      img: G3_vergara medalla c.jpg
+      title: III-Star
+
     - name: BELEN R. MARTIREZ
       img: G3_martirez belen r.jpg
       title: III-Sunflower
-      sub: School Librarian
+      sub: RBI Coordinator
 
     - name: MADELENE O. PADUA
       img: G3_padua madelene o.jpg
@@ -163,19 +168,17 @@
       img: G3_pilapil sandra s.jpg
       title: III-Magnolia
 
-    - name: CATHYRINE D. BAZAR
-      img: G3_bazar cathyrine d.jpg
-      title: III-Rose
-
     - name: LLIANDRAE E. FRONDOZO
       img: G3_frondozo Lliandrae e.jpg
       title: III-Daffodil
 
 - tab: Grade IV
   main:
-    - name: IRENE B. CANAPIT
-      img: G4_canapit irene b.jpg
-      title: Grade IV Dean/Star
+    - name: ELLA MAE P. BOLANTE
+      img: G5_bolante ella mae.jpg
+      title: Grade IV Dean/IV-Jade
+      sub: 
+
   children:
     - name: SHEENA LYN S. BRIONES
       img: G4_briones sheena lyn s.jpg
@@ -186,6 +189,10 @@
       img: G4_cielos sherry s.jpg
       title: IV-SSES B
       sub: Sports/Wellness Coordinator
+
+    - name: IRENE B. CANAPIT
+      img: G4_canapit irene b.jpg
+      title: IV-Star
 
     - name: MARY JANE T. BOLIMA
       img: G4_bolima mary jane t.jpg
@@ -202,11 +209,18 @@
       title: IV-Emerald
       sub: CHA-CHING Coordinator
 
+    - name: FRANCIA LOVIE V. BARBOSA
+      img: G5_barbosa francia lovie.jpg
+      title: IV-Pearl
+      sub: 
+
 - tab: Grade V
   main:
-    - name: ANALISA C. AGAPITO
-      img: G5_agapito analiza c.jpg
-      title: Grade V Dean/Polaris
+    - name: JOY R. COLOQUIT
+      img: G5_coloquit joy r.jpg
+      title: Grade V Dean/V-Perseus
+      sub: Religion Coordinator
+
   children:
     - name: MARIE GRACE D. GALANG
       img: G5_galang marie grace d.jpg
@@ -228,30 +242,17 @@
       title: V-Lyra
       sub: Faculty President
 
-    - name: JOE MARIE B. MOLINA
-      img: G5_molina joe marie b.jpg
-      title: V-Centurion
-      sub: 
+    - name: ANALISA C. AGAPITO
+      img: G5_agapito analiza c.jpg
+      title: Polaris
 
-    - name: JOY R. COLOQUIT
-      img: G5_coloquit joy r.jpg
-      title: V-Perseus
-      sub: Religion Coordinator
-
-    - name: FRANCIA LOVIE V. BARBOSA
-      img: G5_barbosa francia lovie.jpg
-      title: V-Cassiopeia
-      sub: 
-
-    - name: ELLA MAE P. BOLANTE
-      img: G5_bolante ella mae.jpg
-      title: V-Antlia
-      sub: 
 - tab: Grade VI
   main:
-    - name: CHERYL F. AQUINO
-      img: G6_aquino cheryl f.jpg
-      title: Grade VI Dean/ Earth
+    - name: JASMIN B. CECILIO
+      img: G6_cecilio jasmin b.jpg
+      title: Grade VI Dean/VI-Uranus
+      sub: GSP Leader
+
   children:
     - name: BHISSIE P. RIGUNAY
       img: G6_rigunay bhissie p.jpg
@@ -267,6 +268,10 @@
       title: VI-Star
       sub: Brigada Coordinator
 
+    - name: CHERYL F. AQUINO
+      img: G6_aquino cheryl f.jpg
+      title: VI-Earth
+
     - name: PATRICIA MAE DM. NOBLEZA
       img: G6_nobleza patricia mae dm.jpg
       title: VI-Jupiter
@@ -277,22 +282,21 @@
       title: VI-Saturn
       sub: Clinic Coordinator
 
-    - name: JASMIN B. CECILIO
-      img: G6_cecilio jasmin b.jpg
-      title: IV-Uranus
-      sub: GSP Leader
+    - name: JOE MARIE B. MOLINA
+      img: G5_molina joe marie b.jpg
+      title: VI-Mercury
+      sub: 
 
     - name: MONA LISSA P. APOLINAR
       img: G6_apolinar mona lissa p.jpg
-      title: VI-Mercury
+      title: VI-Venus
       sub: 
 
 - tab: Subject Teachers
   main:
-    - name: JOCELIE A. BUENA
-      img: G6_buena jocelie a.jpg
-      title: Subject Teacher Dean
-      sub: SBFP Coordinator
+    - name: GABRIEL E. DAVID
+      img: G5_david gabriel e.jpg
+      title: BSP Coordinator
   children:
     - name: ERMELITA S. ALBALATE
       img: G2_albalate ermelita s.jpg
@@ -314,9 +318,10 @@
       img: G4_bermejo karl.jpg
       title: Property Custodian
 
-    - name: GABRIEL E. DAVID
-      img: G5_david gabriel e.jpg
-      title: BSP Coordinator
+    - name: JOCELIE A. BUENA
+      img: G6_buena jocelie a.jpg
+      title: Subject Teacher Dean
+      sub: SBFP Coordinator
 
     - name: ALDRIN P. MARAVILLA
       img: G5_maravilla aldrin p.jpg
