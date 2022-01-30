@@ -32,18 +32,18 @@ title: SEENN Awardees
   <div class="tab-pane fade show {% if forloop.first %} active {% endif %}" id="{{id}}" role="tabpanel" aria-labelledby="{{id}}-tab">
 
     <div id="seennCarousel{{id}}" class="carousel slide" data-ride="carousel" data-interval="0">
-    
+
       {% comment %} CAROUSEL INDICATORS (thingy to know what slide we're on and to go to another one directly)
       {% endcomment %}
       <ol class="carousel-indicators m-0">
         {% for item in group.content %}
-    
+
         <li data-target="#seennCarousel{{id}}" data-slide-to="{{forloop.index0}}"
-          class="{% if forloop.first %} active {% endif %}""></li>
-    
+          class="{% if forloop.first %} active {% endif %}"></li>
+
         {% endfor %}
       </ol>
-    
+
       {% comment %} CAROUSEL IMAGES {% endcomment %}
       <div class="carousel-inner">
         {% for item in group.content %}
@@ -55,10 +55,10 @@ title: SEENN Awardees
             <p class="d-none d-md-block">{{item.text}}</p>
           </div>
         </div>
-    
+
         {% endfor %}
       </div>
-    
+
       {% comment %} CAROUSEL PREVIOUS AND NEXT CONTROLS {% endcomment %}
       <a class="carousel-control-prev" href="#seennCarousel{{id}}" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -68,11 +68,11 @@ title: SEENN Awardees
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    
+
     </div>
 
   </div>
-  
+
   {% endfor %}
 
 </div>
