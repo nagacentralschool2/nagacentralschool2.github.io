@@ -1,11 +1,13 @@
-- img: RIFAREAL.jpg
-- img: CECILIO.jpg
-- img: VIVO-CYRIL.jpg
-- img: TANDAAN.jpg
-- img: CANAPIT.jpg
-- img: TANDOG.jpg
-- img: RIGUNAY.jpg
-- img: OCO.jpg
-- img: PILAPIL.jpg
-- img: HERRAS.jpg
-- img: VIVO-RUDY.jpg
+- tab: 2020
+  content:
+    - img: 2020/RIFAREAL.jpg
+    - img: 2020/CECILIO.jpg
+    - img: 2020/VIVO-CYRIL.jpg
+    - img: 2020/TANDAAN.jpg
+    - img: 2020/CANAPIT.jpg
+    - img: 2020/TANDOG.jpg
+    - img: 2020/RIGUNAY.jpg
+    - img: 2020/OCO.jpg
+    - img: 2020/PILAPIL.jpg
+    - img: 2020/HERRAS.jpg
+    - img: 2020/VIVO-RUDY.jpg
