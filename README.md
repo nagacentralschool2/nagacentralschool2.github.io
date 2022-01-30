@@ -12,10 +12,12 @@ See it at [nagacentralschool2.github.io](https://nagacentralschool2.github.io)
   - [Reports](#reports)
   - [Downloads](#downloads)
   - [Contact Us](#contact-us)
+- [Carousel (images on the home page)](#carousel)
 - [Events](#events)
 - [Announcements](#announcements)
 
 <div id='header'/>
+
 # Header
 
 The header contains the logo at the top, the name of the school and its ID, as well as some navigation links.
@@ -29,6 +31,7 @@ Power users can look at `_includes/header.html`. Bootstrap is being used.
 Here are the current links in the navigation pane.
 
 <div id='home'/>
+
 ## Home
 
 The home page that contains the header, carousel, events, announcements and news.
@@ -36,6 +39,7 @@ The home page that contains the header, carousel, events, announcements and news
 Power users can look at `index.html`. It currently contains `carousel.html` and `home-content.html`, both defined under `_includes`.
 
 <div id='about-us'/>
+
 ## About Us
 
 It can contain 1 or more links to pages. Those pages are put under `about-us` to keep things tidy, but they could be anywhere.
@@ -63,6 +67,7 @@ Example:
 Currently, `Vision Mission` and `History` are both simple pages, while `Faculty and Staff` as well as `Previous School Heads` are automatically populated from data files.
 
 <div id='staff'/>
+
 ### Faculty and Staff
 
 The page displays a number of tabs, for the different grade levels and other personnel.
@@ -104,6 +109,7 @@ Here is an example:
 Power users can check `about-us/faculty-and-staff.html` to see the template. It makes use of `_includes/staff.html` to make the template of each tab reusable. It's also used by the previous heads page.
 
 <div id='prev-heads'/>
+
 ### Previous School Heads
 
 The page displays the data from `_data/prevheads.yml`, in the order it appears.
@@ -127,6 +133,7 @@ Example:
 Power users can check `about-us/previous-school-heads.html` to see the template. It makes use of `_includes/staff.html` to make the template reusable with the staff page.
 
 <div id='programs'/>
+
 ## Academic Programs
 
 It can contain 1 or more links to pages. Those pages are put under `academic-programs` to keep things tidy, but they could be anywhere.
@@ -146,6 +153,7 @@ Example:
 ```
 
 <div id='reports'/>
+
 ## Report
 
 It can contain 1 or more links to pages. Those pages are put under `school-report` to keep things tidy, but they could be anywhere.
@@ -166,6 +174,7 @@ Example:
 ```
 
 <div id='downloads'/>
+
 ## Downloads
 
 Put all the files to download under `assets\dl`. In `_data/download.yml`, specify the `title`, ie text to display, and `file`, ie the name of the file to download.
@@ -186,9 +195,12 @@ Example:
 Power users can look at `downloads.html` to see how the page is being populated.
 
 <div id='contact-us'/>
+
 ## Contact Us
 
 Simply displays `contact-us.html`.
+
+<div id='carousel'/>
 
 # Carousel (images on the home page)
 
@@ -208,6 +220,7 @@ The `carousel.yml` file allows to specify which image to display with `img`, as 
 ```
 
 <div id='events'/>
+
 # Events
 
 The events are displayed on the home page, under the carousel. They are defined in `_data/events.yml`.
@@ -231,6 +244,7 @@ Examples:
 ```
 
 <div id='announcements'/>
+
 # Announcements
 
 Each announcement has its own page under `_announcements`. The name of the page must follow the pattern `yyyy-mm-dd-name-of-the-announcement.md`.
