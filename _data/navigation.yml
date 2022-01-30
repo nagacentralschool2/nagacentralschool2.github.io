@@ -12,6 +12,8 @@
       link: /about-us/faculty-and-staff.html
     - name: Previous School Heads
       link: /about-us/previous-school-heads.html
+    - name: Organizational Structure
+      link: /about-us/org-structure.html
 - name: Academic Programs
   id: academicprograms
   link: /academic-programs/
