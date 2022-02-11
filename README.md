@@ -13,18 +13,20 @@ See it at [nagacentralschool2.github.io](https://nagacentralschool2.github.io)
   - [Downloads](#downloads)
   - [Contact Us](#contact-us)
 - [Carousel (images on the home page)](#carousel)
+- [Featured Pages](#featured)
 - [Events](#events)
 - [Announcements](#announcements)
+- [News](#news)
 
 <div id='header'/>
 
 # Header
 
-The header contains the logo at the top, the name of the school and its ID, as well as some navigation links.
+The header contains the logo at the top, the name of the school and its ID, as well as the navigation bar.
 
-To modify the logo, name or school ID, in `_data/header.yml`, change the corresponding `img`, `name` or `id`. The image must be in `assets/img`.
+To modify the logo, name or school ID, in `_data/header.yml`, change the corresponding `img`, `name` or `id`. The image must be placedin `assets/img`.
 
-The navigation links are defined in `_data/navigation.yml`. The color of those links is defined in `assets/css/styles.scss`.
+The data for the navigation bar is defined in `_data/navigation.yml`. Note that you can have up to 2 sub menus (ie something like `Main Menu > Sub Menu > Sub Sub Menu`). The color of those links is defined in `assets/css/styles.scss`.
 
 Power users can look at `_includes/header.html`. Bootstrap is being used.
 
@@ -34,7 +36,7 @@ Here are the current links in the navigation pane.
 
 ## Home
 
-The home page that contains the header, carousel, events, announcements and news.
+The home page contains the [Header](#header), [Carousel](#carousel) (big images shown in rotation), [Featured Pages](#featured) (smaller images pointing to featured pages), [Events](#events), [Announcements](#announcements) and [News](#news).
 
 Power users can look at `index.html`. It currently contains `carousel.html` and `home-content.html`, both defined under `_includes`.
 
@@ -219,6 +221,26 @@ The `carousel.yml` file allows to specify which image to display with `img`, as 
 
 ```
 
+<div id='featured'/>
+
+# Featured
+
+This allows to feature some pages, by showing an image that can be clicked to display the corresponding page. It's also possible to just display an image without a link.
+
+See `_data/featured.yml`. The `img` info is mandatory, but not the `url`. If there's no `url` for an `img`, then the image will simply not be clickable.
+
+In the example below, only the first 2 are clickable, the 3rd one is just an image:
+
+```yml
+
+- img: /assets/img/thumbnail_seenn.jpg
+  url: /feature/seenn.html
+- img: /assets/img/thumbnail_sosa.jpg
+  url: /feature/sosa.html
+- img: /assets/img/thumbnail_brigada.jpg
+
+```
+
 <div id='events'/>
 
 # Events
@@ -264,3 +286,9 @@ Please be informed that ...
 Leave a blank line to create a new paragraph.
 
 ```
+
+<div id='news'/>
+
+# News
+
+Same as [Announcements](#announcements), except they are found under `_posts`. They follow the same pattern for their names.
