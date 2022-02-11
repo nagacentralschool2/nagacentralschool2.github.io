@@ -41,9 +41,9 @@
       link: /sosa/
       children:
       - name: SY 2020-2021
-        link: /school-report/site-devt-plan.html
+        link: /feature/sosa2020-2021.html
       - name: SY 2021-2022
-        link: /school-report/site-devt-plan.html
+        link: /feature/sosa2021-2022.html
 
 
 - name: School Paper
