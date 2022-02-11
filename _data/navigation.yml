@@ -36,6 +36,15 @@
       link: /school-report/financialreport.html
     - name: Site Development Plan
       link: /school-report/site-devt-plan.html
+    - name: SOSA
+      id: sosa
+      link: /sosa/
+      children:
+      - name: SY 2020-2021
+        link: /school-report/site-devt-plan.html
+      - name: SY 2021-2022
+        link: /school-report/site-devt-plan.html
+
 
 - name: School Paper
   link: /school-paper/
