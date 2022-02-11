@@ -17,23 +17,50 @@
     <ul class="navbar-nav">
 
       {% for item in site.data.navigation %}
-      <li class="nav-item {% if item.children %} dropdown {% endif %} {% if page.url == item.link or page.url == '/' and item.link == '/index.html' %} active {% endif %} {% if item.children and page.url contains item.link %} active {% endif %}"
-        >
+      {% comment %}
+        Top navigation element will have a drop down icon if it has children. Also it'll appear as active/selected if its URL
+        is the same as the current page's URL, or if it has children, if its URL is contained in the current page's URL (ie if
+        if one of its children is the current page).
+      {% endcomment %}
+      <li class="nav-item {% if item.children %} dropdown {% endif %} {% if page.url == item.link or page.url == '/' and item.link == '/index.html' %} active {% endif %} {% if item.children and page.url contains item.link %} active {% endif %}">
         {% if item.children %}
         <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           {{ item.name }}
         </a>
         <div class="dropdown-menu" aria-labelledby="{{ item.id }}">
+
+          {% comment %}
+            NOTE that we only allow up to 2 sub-levels, ie Main > Sub Level 1 > Sub Level 2.
+            More levels is probably not useful. If needed, you might be able to include recursively
+            what's below.
+          {% endcomment %}
+
           {% for subitem in item.children %}
-          <a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a>
+
+            {% if subitem.children %}
+            <a class=" dropdown-item dropdown-toggle" href="#" id="{{ subitem.id }}" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              {{ subitem.name }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="{{ subitem.id }}">
+              {% for subsubitem in subitem.children %}
+              <a class="dropdown-item" href="{{ subsubitem.link }}">{{ subsubitem.name }}</a>
+              {% endfor %}
+            </div>
+            {% else %}
+            <a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a>
+            {% endif %}
+    
           {% endfor %}
+
         </div>
         {% else %}
         <a class="nav-link" href="{{ item.link }}">{{ item.name }}
           {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
         </a>
         {% endif %}
+
       </li>
       {% endfor %}
 
