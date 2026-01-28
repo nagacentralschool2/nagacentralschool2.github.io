@@ -9,7 +9,7 @@ Qualifications:
 
 Requirements:
 1. Application Form with pic (click link or scan QR code to download form)
-https://tinyurl.com/SSESandFL
+[SSES application form](https://tinyurl.com/SSESandFL)
 2. photocopy of PSA Birth Certificate
 3. photocopy of Progress Report Card and ECCD
 
